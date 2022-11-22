@@ -14,7 +14,6 @@ class MobileChatScreen extends StatelessWidget {
         title: Text(
           info[0]['name'].toString(),
         ),
-        centerTitle: false,
         actions: [
           IconButton(
             onPressed: () {},
