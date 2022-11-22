@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:whatsapp_ui/colors.dart';
-import 'package:whatsapp_ui/info.dart';
-import 'package:whatsapp_ui/widgets/chat_list.dart';
-import 'package:whatsapp_ui/widgets/web_chat_appbar.dart';
-import 'package:whatsapp_ui/widgets/contacts_list.dart';
-import 'package:whatsapp_ui/widgets/my_message_card.dart';
-import 'package:whatsapp_ui/widgets/sender_message_card.dart';
-import 'package:whatsapp_ui/widgets/web_profile_bar.dart';
-import 'package:whatsapp_ui/widgets/web_search_bar.dart';
+import 'package:whtasapp/colors.dart';
+import 'package:whtasapp/info.dart';
+import 'package:whtasapp/widgets/chat_list.dart';
+import 'package:whtasapp/widgets/web_chat_appbar.dart';
+import 'package:whtasapp/widgets/contacts_list.dart';
+import 'package:whtasapp/widgets/my_message_card.dart';
+import 'package:whtasapp/widgets/sender_message_card.dart';
+import 'package:whtasapp/widgets/web_profile_bar.dart';
+import 'package:whtasapp/widgets/web_search_bar.dart';
 
 class WebLayoutScreen extends StatelessWidget {
   const WebLayoutScreen({Key? key}) : super(key: key);

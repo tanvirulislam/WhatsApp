@@ -1,6 +1,6 @@
 {
-    "name": "whatsapp_ui",
-    "short_name": "whatsapp_ui",
+    "name": "whtasapp",
+    "short_name": "whtasapp",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

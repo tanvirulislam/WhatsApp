@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:whatsapp_ui/colors.dart';
-import 'package:whatsapp_ui/info.dart';
-import 'package:whatsapp_ui/screens/mobile_chat_screen.dart';
+import 'package:whtasapp/colors.dart';
+import 'package:whtasapp/info.dart';
+import 'package:whtasapp/screens/mobile_chat_screen.dart';
 
 class ContactsList extends StatelessWidget {
   const ContactsList({Key? key}) : super(key: key);
@@ -29,9 +29,7 @@ class ContactsList extends StatelessWidget {
                   child: ListTile(
                     title: Text(
                       info[index]['name'].toString(),
-                      style: const TextStyle(
-                        fontSize: 18,
-                      ),
+                      style: const TextStyle(fontSize: 18),
                     ),
                     subtitle: Padding(
                       padding: const EdgeInsets.only(top: 6.0),
