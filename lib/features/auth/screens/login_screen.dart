@@ -67,6 +67,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       SizedBox(
                         width: size.width * .7,
                         child: TextFormField(
+                          keyboardType: TextInputType.number,
                           controller: textController,
                           decoration: InputDecoration(
                               hintText: 'Input your phone number'),
