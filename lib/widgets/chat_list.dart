@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:whtasapp/info.dart';
-import 'package:whtasapp/widgets/my_message_card.dart';
-import 'package:whtasapp/widgets/sender_message_card.dart';
+import 'package:chitchat/info.dart';
+import 'package:chitchat/widgets/my_message_card.dart';
+import 'package:chitchat/widgets/sender_message_card.dart';
 
 class ChatList extends StatelessWidget {
   const ChatList({Key? key}) : super(key: key);

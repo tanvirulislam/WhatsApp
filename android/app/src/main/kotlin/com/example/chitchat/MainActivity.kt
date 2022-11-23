@@ -1,4 +1,4 @@
-package com.example.whtasapp
+package com.example.chitchat
 
 import io.flutter.embedding.android.FlutterActivity
 

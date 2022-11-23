@@ -1,13 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:whtasapp/colors.dart';
-import 'package:whtasapp/info.dart';
-import 'package:whtasapp/widgets/chat_list.dart';
-import 'package:whtasapp/widgets/web_chat_appbar.dart';
-import 'package:whtasapp/widgets/contacts_list.dart';
-import 'package:whtasapp/widgets/my_message_card.dart';
-import 'package:whtasapp/widgets/sender_message_card.dart';
-import 'package:whtasapp/widgets/web_profile_bar.dart';
-import 'package:whtasapp/widgets/web_search_bar.dart';
+import 'package:chitchat/colors.dart';
+import 'package:chitchat/widgets/chat_list.dart';
+import 'package:chitchat/widgets/web_chat_appbar.dart';
+import 'package:chitchat/widgets/contacts_list.dart';
+import 'package:chitchat/widgets/web_profile_bar.dart';
+import 'package:chitchat/widgets/web_search_bar.dart';
 
 class WebLayoutScreen extends StatelessWidget {
   const WebLayoutScreen({Key? key}) : super(key: key);

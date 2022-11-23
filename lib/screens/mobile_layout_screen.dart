@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:whtasapp/colors.dart';
-import 'package:whtasapp/widgets/contacts_list.dart';
+import 'package:chitchat/colors.dart';
+import 'package:chitchat/widgets/contacts_list.dart';
 
 class MobileLayoutScreen extends StatelessWidget {
   const MobileLayoutScreen({Key? key}) : super(key: key);
@@ -15,7 +15,7 @@ class MobileLayoutScreen extends StatelessWidget {
           backgroundColor: appBarColor,
           centerTitle: false,
           title: const Text(
-            'WhatsApp',
+            'chitchat',
             style: TextStyle(
               fontSize: 20,
               color: Colors.grey,

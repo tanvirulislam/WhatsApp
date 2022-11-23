@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:whtasapp/colors.dart';
+import 'package:chitchat/colors.dart';
 
 class SenderMessageCard extends StatelessWidget {
   const SenderMessageCard({
